@@ -7,6 +7,8 @@ body{
     color: var(--text-color);
 }
 
+
+
 *{
     padding:0;
     margin: 0;
@@ -662,7 +664,7 @@ textarea:valid~label{
     opacity: 0;
     filter: blur(4px);
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .show{
